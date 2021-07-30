@@ -1,0 +1,20 @@
+{
+  "name": "flor_b6",
+  "version": "0.0.1",
+  "description": "3 vez que eu faço isso...dessa vez vai dar certo",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm i -g @ionic/cli && ionic info",
+   "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgenteDoCaos/Flor_B6.git"
+  },
+  "author": "Julia Nogueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgenteDoCaos/Flor_B6/issues"
+  },
+  "homepage": "https://github.com/AgenteDoCaos/Flor_B6#readme"
+}
