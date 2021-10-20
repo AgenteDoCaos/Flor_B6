@@ -1,0 +1,22 @@
+1:
+SELECT c.nome,c.cidade,c.telefone,v.produto,v.quantidade 
+FROM Cliente as c inner join Vendas as v
+ON v.Clientefk = c.idCliente;
+
+2:
+SELECT c.estado,c.cidade,v.produto,v.quantidade 
+FROM Cliente as c inner join Vendas as v
+ON v.Clientefk = c.idCliente
+WHERE c.cidade = "Itapeva";
+
+3:
+SELECT c.nome 
+FROM Cliente as c inner join Vendas as v
+ON v.Clientefk = c.idCliente
+WHERE v.produto = "Folha Sufite";
+
+4:
+SELECT c.nome,v.produto
+FROM Cliente as c inner join Vendas as v
+ON v.Clientefk = c.idCliente
+WHERE v.quantidade >= 100 AND LimiteCredito >= 2000;
